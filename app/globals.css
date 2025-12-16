@@ -1,26 +1,46 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-notoJP: "Noto Sans JP", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.nav-btn {
+  border: 1px #00000070 solid;
+  border-radius: 7px;
+  padding: 8px 16px;
+  margin-right: 5px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+button:hover {
+  background-color: black;
+  color: white;
+  pointer-events: cursor;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.nova-header1 {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+.nova-header2 {
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  z-index: -10;
+}
+
+.description-hero {
+  padding: 96px 64px;
 }
