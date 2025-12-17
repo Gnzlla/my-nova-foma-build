@@ -8,7 +8,7 @@
 }
 
 .nav-btn {
-  border: 1px #00000070 solid;
+  border: 1px #80808040 solid;
   border-radius: 7px;
   padding: 8px 16px;
   margin-right: 5px;
@@ -22,7 +22,7 @@ button:hover {
 
 .nova-header1 {
   position: absolute;
-  top: 22%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;
@@ -32,7 +32,7 @@ button:hover {
 
 .nova-header2 {
   position: absolute;
-  top: 73%;
+  top: 49%;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;
@@ -43,4 +43,122 @@ button:hover {
 
 .description-hero {
   padding: 96px 64px;
+}
+
+.mask-title {
+  padding: 96px 0px 0px;
+}
+
+.white-text-mask {
+  will-change: transform;
+}
+
+.text-primary-foreground {
+  background-color: black;
+  padding: 96px 0px;
+}
+
+.app-container-wide {
+  padding: 0px 32px;
+}
+
+.bg-primary {
+  background-color: oklch(0.205 0 0);
+  padding: 20px;
+  color: white
+}
+
+.bg-primary-h1 {
+  padding: 24px 0px;
+  margin: 0px 0px 12px;
+  color: oklch(0.985 0)
+}
+
+.bg-primary-p {
+  color: oklch(0.556 0 0);
+  font-size: 14px;
+}
+
+.bg-primary-h2 {
+  font-size: 36px;
+  color: oklch(0.985 0 0);
+  padding: 24px 0px;
+  margin: 0px 0px 12px;
+}
+
+.bg-primary-p2 {
+  color: oklch(0.985 0 0);
+  font-size: 16px;
+  margin: 16px 0px
+}
+
+.bg-primary li {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+/* NO responsiveness yet */
+.bg-primary li h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.stats-span {
+  font-size: 72px;
+}
+
+/* NO responsiveness yet */
+.bg-primary li .p1 {
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+  font-size: 20px;
+  color: oklch(0.985 0 0);
+}
+
+.bg-primary li .p2 {
+  font-size: 19px;
+  color: #737373
+}
+
+.benefits-container {
+  background-color: oklch(0.205 0 0);
+  padding: 80px 0px;
+}
+
+.inside-benefits {
+  margin: 0px auto 20px;
+  padding: 0px 20px;
+  color: oklch(0.985 0 0);
+}
+
+.inside-benefits h2 {
+  font-size: 70px;
+  font-weight: bolder;
+  margin: 0px 0px 60px;
+}
+
+.circular-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 90%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.circular-img h3 {
+  font-weight: 700;
+}
+
+.circular-img img {
+  display: flex;
+  aspect-ratio: 1/1;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 100%;
+  object-fit: cover;
+  width: 280px;
 }
